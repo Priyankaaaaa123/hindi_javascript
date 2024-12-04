@@ -5,9 +5,23 @@
         <title>Dom learning</title>
     </head>
 <body>
-    <div class="bg-black">
-        <h1 id="title" class="heading">Dom learning on chai aur code</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas consequuntur iure repudiandae libero saepe suscipit. Consectetur sed error cupiditate, aliquam quam eaque unde illo velit, cum asperiores cumque illum hic.</p>
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+      
     </div>
-</body>   
+</body>  
+<script>
+   const parent= document.querySelector('.parent');
+   console.log(parent);
+   console.log(parent.children[1].innerHTML);
+   for(let i=0;i<parent.children.length;i++){
+    console.log(parent.children[i].innerHTML);
+   }
+
+   
+
+</script> 
 </html> 

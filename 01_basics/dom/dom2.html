@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Dom learning</title>
+    </head>
+<body>
+    
+    </body>
+    <script>
+       const div = document.createElement('div')
+        console.log(div);
+        div.className="main"
+        div.id=Math.round(Math.random()*10+1)
+        div.setAttribute("title","genereted title")
+        div.style.background="green"
+        const addText=document.createTextNode("CHAI AUR CODE")
+          div.appendChild(addText)
+          document.body.appendChild(div)
+    </script>
+    </html>

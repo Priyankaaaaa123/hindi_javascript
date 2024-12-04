@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Dom learning</title>
+    </head>
+<body>
+    <ul class="language"
+    <li>Javascript</li>
+    <li>typescript</li>
+</ul>
+
+</body>
+<script>
+    function  addLanguage(langName){
+        const li=document.createElement('li');
+        li.innerHTML=`${langName}`
+        document.querySelector('.language')
+        appendChild(li)
+    }
+    addLanguage("python")
+    addLanguage("typescript")
+</script>
+</html>
